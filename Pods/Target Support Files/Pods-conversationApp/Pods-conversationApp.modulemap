@@ -1,0 +1,6 @@
+framework module Pods_conversationApp {
+  umbrella header "Pods-conversationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
