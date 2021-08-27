@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3986C31495A2573A6FEABA7 /* Pods_conversationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BB16AC82A401B108D9D022 /* Pods_conversationApp.framework */; };
+		D625919B26D40ABC00192E7A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625919A26D40ABC00192E7A /* DatabaseManager.swift */; };
+		D625919D26D42EEC00192E7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625919C26D42EEC00192E7A /* LoginViewController.swift */; };
+		D625919F26D509C400192E7A /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625919E26D509C400192E7A /* ConversationTableViewCell.swift */; };
 		D6CA58E926D39E8A00024165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA58E826D39E8A00024165 /* AppDelegate.swift */; };
 		D6CA58EB26D39E8A00024165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA58EA26D39E8A00024165 /* SceneDelegate.swift */; };
-		D6CA58ED26D39E8A00024165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA58EC26D39E8A00024165 /* ViewController.swift */; };
+		D6CA58ED26D39E8A00024165 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA58EC26D39E8A00024165 /* ConversationsViewController.swift */; };
 		D6CA58F026D39E8B00024165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CA58EE26D39E8B00024165 /* Main.storyboard */; };
 		D6CA58F226D39E9100024165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CA58F126D39E9100024165 /* Assets.xcassets */; };
 		D6CA58F526D39E9100024165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CA58F326D39E9100024165 /* LaunchScreen.storyboard */; };
@@ -18,16 +22,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112DBBF03137463C8C08EDDB /* Pods-conversationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conversationApp.debug.xcconfig"; path = "Target Support Files/Pods-conversationApp/Pods-conversationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BB16AC82A401B108D9D022 /* Pods_conversationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_conversationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D625919A26D40ABC00192E7A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		D625919C26D42EEC00192E7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D625919E26D509C400192E7A /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		D6CA58E526D39E8A00024165 /* conversationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conversationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CA58E826D39E8A00024165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CA58EA26D39E8A00024165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6CA58EC26D39E8A00024165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CA58EC26D39E8A00024165 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		D6CA58EF26D39E8B00024165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6CA58F126D39E9100024165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CA58F426D39E9100024165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6CA58F626D39E9100024165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6CA58FC26D3A1D700024165 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		D6CA58FE26D3A30B00024165 /* Structs+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structs+Protocols.swift"; sourceTree = "<group>"; };
+		E5938479B03109FFC39E4603 /* Pods-conversationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conversationApp.release.xcconfig"; path = "Target Support Files/Pods-conversationApp/Pods-conversationApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3986C31495A2573A6FEABA7 /* Pods_conversationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045B6FF92F1E0DF6FF9A63E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3BB16AC82A401B108D9D022 /* Pods_conversationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6CA58DC26D39E8A00024165 = {
 			isa = PBXGroup;
 			children = (
 				D6CA58E726D39E8A00024165 /* conversationApp */,
 				D6CA58E626D39E8A00024165 /* Products */,
+				FDC1A1DB7553539B44DA8935 /* Pods */,
+				045B6FF92F1E0DF6FF9A63E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +83,11 @@
 			children = (
 				D6CA58E826D39E8A00024165 /* AppDelegate.swift */,
 				D6CA58EA26D39E8A00024165 /* SceneDelegate.swift */,
-				D6CA58EC26D39E8A00024165 /* ViewController.swift */,
+				D6CA58EC26D39E8A00024165 /* ConversationsViewController.swift */,
+				D625919C26D42EEC00192E7A /* LoginViewController.swift */,
 				D6CA58FC26D3A1D700024165 /* ChatViewController.swift */,
+				D625919E26D509C400192E7A /* ConversationTableViewCell.swift */,
+				D625919A26D40ABC00192E7A /* DatabaseManager.swift */,
 				D6CA58FE26D3A30B00024165 /* Structs+Protocols.swift */,
 				D6CA58EE26D39E8B00024165 /* Main.storyboard */,
 				D6CA58F126D39E9100024165 /* Assets.xcassets */,
@@ -73,6 +97,15 @@
 			path = conversationApp;
 			sourceTree = "<group>";
 		};
+		FDC1A1DB7553539B44DA8935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				112DBBF03137463C8C08EDDB /* Pods-conversationApp.debug.xcconfig */,
+				E5938479B03109FFC39E4603 /* Pods-conversationApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6CA58F926D39E9100024165 /* Build configuration list for PBXNativeTarget "conversationApp" */;
 			buildPhases = (
+				B288F7078B588546DCD1466D /* [CP] Check Pods Manifest.lock */,
 				D6CA58E126D39E8A00024165 /* Sources */,
 				D6CA58E226D39E8A00024165 /* Frameworks */,
 				D6CA58E326D39E8A00024165 /* Resources */,
+				CECBCFD0B5692F0B43D9CC96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,13 +174,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B288F7078B588546DCD1466D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-conversationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECBCFD0B5692F0B43D9CC96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-conversationApp/Pods-conversationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-conversationApp/Pods-conversationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-conversationApp/Pods-conversationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6CA58E126D39E8A00024165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CA58ED26D39E8A00024165 /* ViewController.swift in Sources */,
+				D625919F26D509C400192E7A /* ConversationTableViewCell.swift in Sources */,
+				D625919D26D42EEC00192E7A /* LoginViewController.swift in Sources */,
+				D6CA58ED26D39E8A00024165 /* ConversationsViewController.swift in Sources */,
 				D6CA58E926D39E8A00024165 /* AppDelegate.swift in Sources */,
+				D625919B26D40ABC00192E7A /* DatabaseManager.swift in Sources */,
 				D6CA58FD26D3A1D800024165 /* ChatViewController.swift in Sources */,
 				D6CA58EB26D39E8A00024165 /* SceneDelegate.swift in Sources */,
 				D6CA58FF26D3A30B00024165 /* Structs+Protocols.swift in Sources */,
@@ -290,6 +370,7 @@
 		};
 		D6CA58FA26D39E9100024165 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112DBBF03137463C8C08EDDB /* Pods-conversationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +389,7 @@
 		};
 		D6CA58FB26D39E9100024165 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5938479B03109FFC39E4603 /* Pods-conversationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
